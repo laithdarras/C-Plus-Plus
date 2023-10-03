@@ -80,11 +80,11 @@ int main() {
     initialise_list();
     int x, y, z;
     for (;;) {
-        std::cout << "1. Insert At The Beginning" << std::endl;
-        std::cout << "2. Insert At The End" << std::endl;
-        std::cout << "3. Display" << std::endl;
-        std::cout << "4.Exit" << std::endl;
-        std::cout << "Enter Your choice" << std::endl;
+        std::cout << "1. Insert At The Beginning" << "\n" << std::endl;
+        std::cout << "2. Insert At The End" << "\n" << std::endl;
+        std::cout << "3. Display" << "\n" << std::endl;
+        std::cout << "4.Exit" << "\n" << std::endl;
+        std::cout << "Enter Your choice" << "\n" << std::endl;
         std::cin >> z;
         switch (z) {
         case 1:
